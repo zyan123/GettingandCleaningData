@@ -1,0 +1,113 @@
+#CodeBook 
+This is the code book for the cleaned data 
+This dataset is a data frame consists of 10299 objects of  68 variables 
+
+##Data
+The data can be downloaded from the website below
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+##Script
+The script uploaded was called run_analysis.R adn in the script, we did the following things:
+1, Merges the training and the test sets to create one data set.
+2, Extracts only the measurements on the mean and standard deviation for each measurement.
+3, Uses descriptive activity names to name the activities in the data set
+4, Appropriately labels the data set with descriptive variable names.
+5, From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+##variables
+
+###Integer
+The first variable "subject" is an integer range from 1 to 30
+
+###Factor
+The second variable "activity" is a factor which have 6 levels
+####WALKING 
+####WALKING_UPSTAIRS 
+####WALKING_DOWNSTAIRS 
+####SITTING 
+####STANDING
+####LAYING
+
+###Numeric
+The following variables are all the measurements on the mean and standard deviation for each measurement
+timeDomainBodyAccelerometerMeanX
+timeDomainBodyAccelerometerMeanY
+timeDomainBodyAccelerometerMeanZ
+timeDomainBodyAccelerometerStdX
+timeDomainBodyAccelerometerStdY
+timeDomainBodyAccelerometerStdZ
+timeDomainGravityAccelerometerMeanX
+timeDomainGravityAccelerometerMeanY
+timeDomainGravityAccelerometerMeanZ
+timeDomainGravityAccelerometerStdX
+timeDomainGravityAccelerometerStdY
+timeDomainGravityAccelerometerStdZ
+timeDomainBodyAccelerometerJerkMeanX
+timeDomainBodyAccelerometerJerkMeanY
+timeDomainBodyAccelerometerJerkMeanZ
+timeDomainBodyAccelerometerJerkStdX
+timeDomainBodyAccelerometerJerkStdY
+timeDomainBodyAccelerometerJerkStdZ
+timeDomainBodyGyroscopeMeanX
+timeDomainBodyGyroscopeMeanY
+timeDomainBodyGyroscopeMeanZ
+timeDomainBodyGyroscopeStdX
+timeDomainBodyGyroscopeStdY
+timeDomainBodyGyroscopeStdZ
+timeDomainBodyGyroscopeJerkMeanX
+timeDomainBodyGyroscopeJerkMeanY
+timeDomainBodyGyroscopeJerkMeanZ
+timeDomainBodyGyroscopeJerkStdX
+timeDomainBodyGyroscopeJerkStdY
+timeDomainBodyGyroscopeJerkStdZ
+timeDomainBodyAccelerometerMagnitudeMean
+timeDomainBodyAccelerometerMagnitudeStd
+timeDomainGravityAccelerometerMagnitudeMean
+timeDomainGravityAccelerometerMagnitudeStd
+timeDomainBodyAccelerometerJerkMagnitudeMean
+timeDomainBodyAccelerometerJerkMagnitudeStd
+timeDomainBodyGyroscopeMagnitudeMean
+timeDomainBodyGyroscopeMagnitudeStd
+timeDomainBodyGyroscopeJerkMagnitudeMean
+timeDomainBodyGyroscopeJerkMagnitudeStd
+Frequency-domain signals
+frequencyDomainBodyAccelerometerMeanX
+frequencyDomainBodyAccelerometerMeanY
+frequencyDomainBodyAccelerometerMeanZ
+frequencyDomainBodyAccelerometerStdX
+frequencyDomainBodyAccelerometerStdY
+frequencyDomainBodyAccelerometerStdZ
+frequencyDomainBodyAccelerometerMeanFrequencyX
+frequencyDomainBodyAccelerometerMeanFrequencyY
+frequencyDomainBodyAccelerometerMeanFrequencyZ
+frequencyDomainBodyAccelerometerJerkMeanX
+frequencyDomainBodyAccelerometerJerkMeanY
+frequencyDomainBodyAccelerometerJerkMeanZ
+frequencyDomainBodyAccelerometerJerkStdX
+frequencyDomainBodyAccelerometerJerkStdY
+frequencyDomainBodyAccelerometerJerkStdZ
+frequencyDomainBodyAccelerometerJerkMeanFrequencyX
+frequencyDomainBodyAccelerometerJerkMeanFrequencyY
+frequencyDomainBodyAccelerometerJerkMeanFrequencyZ
+frequencyDomainBodyGyroscopeMeanX
+frequencyDomainBodyGyroscopeMeanY
+frequencyDomainBodyGyroscopeMeanZ
+frequencyDomainBodyGyroscopeStdX
+frequencyDomainBodyGyroscopeStdY
+frequencyDomainBodyGyroscopeStdZ
+frequencyDomainBodyGyroscopeMeanFrequencyX
+frequencyDomainBodyGyroscopeMeanFrequencyY
+frequencyDomainBodyGyroscopeMeanFrequencyZ
+frequencyDomainBodyAccelerometerMagnitudeMean
+frequencyDomainBodyAccelerometerMagnitudeStd
+frequencyDomainBodyAccelerometerMagnitudeMeanFrequency
+frequencyDomainBodyAccelerometerJerkMagnitudeMean
+frequencyDomainBodyAccelerometerJerkMagnitudeStd
+frequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency
+frequencyDomainBodyGyroscopeMagnitudeMean
+frequencyDomainBodyGyroscopeMagnitudeStd
+frequencyDomainBodyGyroscopeMagnitudeMeanFrequency
+frequencyDomainBodyGyroscopeJerkMagnitudeMean
+frequencyDomainBodyGyroscopeJerkMagnitudeSd
+frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency
